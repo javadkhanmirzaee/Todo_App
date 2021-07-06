@@ -44,6 +44,12 @@ header{
     border-radius: 3px;
     background: #8737f7;
     cursor: pointer;
+    opacity: 0.4;
+    pointer-events: none;
+}
+.feild button.active{
+    opacity: 1;
+    pointer-events: auto;
 }
 .todo-list{
     max-height: 210px;
@@ -99,5 +105,10 @@ footer button{
     outline: none;
     border-radius: 3px;
     cursor: pointer;
+    opacity: 0.4;
+    pointer-events: none;
 }
-
+footer button.active{
+    opacity: 1;
+    pointer-events: auto;
+}
